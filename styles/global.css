@@ -24,17 +24,23 @@ html {
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
 
 body,
-butrton,
+button,
 input,
 textarea {
     font-size: clamp(14px, 1.6rem, 2vh);
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Poppins', sans-serif;*/
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .sr-only {
